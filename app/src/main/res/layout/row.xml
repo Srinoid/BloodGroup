@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+       
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp" >
+
+        <TextView
+           android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name" />
+        
+        <TextView
+           android:id="@+id/no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number"
+            android:layout_below="@+id/name"
+            android:paddingTop="20dp" />
+        <TextView
+            android:id="@+id/textViewBg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/Share"
+            android:text="Blood Group:" />
+
+        <Button
+            android:id="@+id/Add"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/name"
+            android:layout_marginRight="26dp"
+            android:background="@drawable/add"
+            android:paddingRight="40dp" />
+
+        <Button
+            android:id="@+id/Share"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/Add"
+            android:layout_below="@+id/no"
+            android:background="@drawable/share_a"
+            android:paddingBottom="30dp" />
+
+        
+
+    </RelativeLayout>
+
+</RelativeLayout>

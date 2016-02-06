@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Blood Group Contacts</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+        <string-array name="my_group">
+        <item >Select BloodGroup</item>
+<item>A</item>
+<item>B</item>
+<item>AB</item>
+</string-array>
+
+</resources>
